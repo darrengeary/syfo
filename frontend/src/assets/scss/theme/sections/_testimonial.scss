@@ -1,0 +1,65 @@
+.testimonial {
+
+	.tiles-item-inner {
+		background: get-color(dark, 2);		
+	}
+}
+
+.testimonial-item-content {
+    position: relative;
+	
+}
+
+.testimonial-item-footer {
+    font-weight: 600;
+    padding-top: 20px;
+
+
+    &.has-top-divider {
+
+        &::before {
+            background: get-color(dark, 3);
+        }
+    }
+}
+
+.testimonial-item-link {
+	color: get-color(secondary, 3);
+
+	a {
+        color: get-color(secondary, 3);
+        text-decoration: none;
+
+        &:hover {
+            color: get-color(secondary, 2);
+        }
+	}
+}
+
+.list-group-item{
+    background: none;
+    color: #9CA9B3;
+    border: none;
+}
+
+.icon-bullet{
+    padding-right: 10px;
+    width: 14px;
+}
+
+.old-price{
+    text-decoration: line-through!important;
+    text-decoration-color: red!important;
+    text-decoration-style:wavy!important;
+    text-decoration-thickness: 1px !important;
+    color:#9CA9B3!important;
+    padding-right: 4px!important;
+}
+
+.tlist{
+    margin-bottom: 24px;
+}
+.tlist li{
+    padding: 6px;
+    
+}

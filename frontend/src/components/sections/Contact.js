@@ -120,7 +120,7 @@ const Contact = () => {
                               </FloatingLabel>
                             </div>
                           </div>
-                          <div className='box-big col-lg-5'>
+                          <div className='contact-items col-sm-5'>
                             <div className='d-flex contact-details'>
                               <FontAwesomeIcon
                                 className='email contact-icon'
@@ -150,18 +150,19 @@ const Contact = () => {
                               </a>
                             </div>
                           </div>
-                          <div className='box-big col-lg-7'>
+                          <div className='button-top col-sm-7'>
                             <button className='btn btn-danger-gradiant me-8 mt-3 mb-3 text-white border-0 py-2 px-3'>
                               <span>
                                 Submit <i className='ti-arrow-right'></i>
                               </span>
                             </button>
+                            <ToastContainer />
                           </div>
                         </div>
                       </form>
                     </div>
                   </div>
-                  <ToastContainer />
+
                   <div className='col-lg-4 bg-image'></div>
                 </div>
               </div>

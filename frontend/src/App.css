@@ -105,8 +105,8 @@
 }
 
 .cta-space {
-  margin-bottom: 100px !important;
-  margin-top: 100px !important;
+  margin-bottom: 55px !important;
+  margin-top: 55px !important;
 }
 
 .contact-details {
@@ -145,6 +145,18 @@
   position: relative;
 }
 
-.box-big {
+.contact-items {
   margin-top: 75px;
+}
+
+@media (min-width: 570px) {
+  .button-top {
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 570px) {
+  .button-top {
+    margin-top: 0px;
+  }
 }

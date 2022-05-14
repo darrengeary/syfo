@@ -6,7 +6,8 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 import { FloatingLabel } from "react-bootstrap"
 import axios from "axios"
-import { toast } from "react-toastify"
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 const sectionHeader = {
   title: "Contact Us",
@@ -31,9 +32,10 @@ const Contact = () => {
         location: location,
         message: message,
       })
+
       toast.success("Message Sent!")
     } catch (err) {
-      toast.error("Error " + err)
+      toast.error("Error: Message Not Sent!")
     }
   }
 
@@ -159,6 +161,7 @@ const Contact = () => {
                       </form>
                     </div>
                   </div>
+                  <ToastContainer />
                   <div className='col-lg-4 bg-image'></div>
                 </div>
               </div>

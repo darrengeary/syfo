@@ -104,8 +104,8 @@ const FeaturesSplit = ({
                 <p className='m-0'>
                   Every business has unique requirements. Our versatile
                   management cockpit can be molded to suit your unique business
-                  requirements. Whether its staff management, analysis
-                  reportsnpm or ticketing systems, we've got you covered.
+                  requirements. Whether its staff management, analysis reports
+                  or ticketing needs, we've got you covered.
                 </p>
               </div>
               <div

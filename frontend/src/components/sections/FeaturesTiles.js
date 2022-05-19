@@ -93,11 +93,10 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className='features-tiles-item-content'>
-                  <h4 className='mt-0 mb-8'>Branding and Graphics</h4>
+                  <h4 className='mt-0 mb-8'>Custom Development</h4>
                   <p className='m-0 text-sm'>
-                    We create branding for your solutions or we can provide new
-                    designs which are inline with your current branding and
-                    styles.
+                    We provide anything from websites and apps to internal web
+                    apps to support your internal business processes with ease.
                   </p>
                 </div>
               </div>
@@ -174,10 +173,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className='features-tiles-item-content'>
-                  <h4 className='mt-0 mb-8'>Custom Development</h4>
+                  <h4 className='mt-0 mb-8'>Branding and Graphics</h4>
                   <p className='m-0 text-sm'>
-                    We provide anything from websites and apps to internal web
-                    apps to support your internal business processes with ease.
+                    We create branding for your solutions or we can provide new
+                    designs which are inline with your current branding and
+                    styles.
                   </p>
                 </div>
               </div>

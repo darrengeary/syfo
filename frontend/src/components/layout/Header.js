@@ -122,7 +122,7 @@ const Header = ({
                       <li>
                         <a
                           href='#contact'
-                          className='button button-primary button-wide-mobile button-sm'
+                          className='button button-contact button-wide-mobile button-sm'
                         >
                           Contact Us
                         </a>

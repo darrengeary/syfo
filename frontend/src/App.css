@@ -68,7 +68,7 @@
 }
 
 .contact2 .btn-danger-gradiant {
-  margin-left: 60%;
+  margin-left: 55%;
   background: #5658dd;
   background: -webkit-linear-gradient(
     legacy-direction(to right),
@@ -159,4 +159,13 @@
   .button-top {
     margin-top: 0px;
   }
+}
+
+.button-contact {
+  background-color: #6163ff !important;
+  color: #eceded !important;
+}
+
+.button-contact:hover {
+  background-color: #a818c8 !important;
 }

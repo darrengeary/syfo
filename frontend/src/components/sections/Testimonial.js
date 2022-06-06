@@ -45,7 +45,7 @@ const Testimonial = ({
   const sectionHeader = {
     title: "Website Design",
     paragraph:
-      "We can design websites for all sorts of needs. Costs can depend on user count and content but below are a fe sample Cost of Services Provided",
+      "We can design websites for all sorts of needs. Costs can depend on specific needs but below are three sample tiers of of what can be provided",
   }
 
   return (
@@ -67,21 +67,14 @@ const Testimonial = ({
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        6 Content Pages.
+                        6 Content Pages
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        3 Unique Pages.
-                      </ListGroup.Item>
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        Crisp Responsive Design.
+                        Crisp Responsive Design
                       </ListGroup.Item>
 
                       <ListGroup.Item as='li'>
@@ -89,35 +82,28 @@ const Testimonial = ({
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Search Optimization (SEO).
+                        Search Optimization (SEO)
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Gallery.
+                        Logo / Minor Design
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Logo / Minor Design.
+                        Stock Images
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Stock Images.
-                      </ListGroup.Item>
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        Contact Page.
+                        Contact Page
                       </ListGroup.Item>
                     </ListGroup>
                   </div>
@@ -145,56 +131,56 @@ const Testimonial = ({
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        6 Content Pages.
+                        6 Content Pages
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Crisp Responsive Design.
+                        Crisp Responsive Design
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Search Optimization (SEO).
+                        Search Optimization (SEO)
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Minor Branding.
+                        Minor Branding
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Stock Images.
+                        Stock Images
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Up to 100 Products.
+                        Up to 100 Products
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Admin Cockpit.
+                        Admin Cockpit
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Online Stripe Payments.
+                        Online Stripe Payments
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
@@ -231,70 +217,70 @@ const Testimonial = ({
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        10 Content Pages.
+                        10 Content Pages
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Crisp Responsive Design.
+                        Crisp Responsive Design
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Search Optimization (SEO).
+                        Search Optimization (SEO)
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Full Rebranding.
+                        Full Rebranding
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        User Upload Capabilities.
+                        User Upload Capabilities
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Social Media Integrations.
+                        Social Media Integrations
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        POS / Internal Integrations.
+                        POS / Internal Integrations
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Stock Images.
+                        Stock Images
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Admin Cockpit.
+                        Admin Cockpit
                       </ListGroup.Item>
                       <ListGroup.Item as='li'>
                         <FontAwesomeIcon
                           className='icon-bullet'
                           icon={faWrench}
                         />
-                        Analytics.
+                        Business Analytics
                       </ListGroup.Item>
                     </ListGroup>
                   </div>

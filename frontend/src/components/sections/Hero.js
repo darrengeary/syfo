@@ -4,7 +4,6 @@ import { SectionProps } from "../../utils/SectionProps"
 import ButtonGroup from "../elements/ButtonGroup"
 import Button from "../elements/Button"
 import Image from "../elements/Image"
-import Modal from "../elements/Modal"
 
 const propTypes = {
   ...SectionProps.types,
@@ -24,18 +23,6 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-  const [videoModalActive, setVideomodalactive] = useState(false)
-
-  const openModal = (e) => {
-    e.preventDefault()
-    setVideomodalactive(true)
-  }
-
-  const closeModal = (e) => {
-    e.preventDefault()
-    setVideomodalactive(false)
-  }
-
   const outerClasses = classNames(
     "hero section center-content",
     topOuterDivider && "has-top-divider",
@@ -89,9 +76,9 @@ const Hero = ({
                     color='dark'
                     wideMobile
                     target='_blank'
-                    href='http://216.158.229.123:8080/Restaurant-Website/'
+                    href='https://mcglynns.syfo.ie'
                   >
-                    View our Projects
+                    View Our Projects
                   </Button>
                 </ButtonGroup>
               </div>

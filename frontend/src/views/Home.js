@@ -6,13 +6,14 @@ import FeaturesSplit from "../components/sections/FeaturesSplit"
 import Contact from "../components/sections/Contact"
 import Testimonial from "../components/sections/Testimonial"
 import Cta from "../components/sections/Cta"
+import FeaturesSplit2 from "../components/sections/FeaturesSplit2"
 
 const Home = () => {
   return (
     <>
       <Hero id='top' className='illustration-section-01' />
       <FeaturesTiles />
-      <FeaturesSplit
+      <FeaturesSplit2
         invertMobile
         topDivider
         bottomDivider
@@ -20,6 +21,13 @@ const Home = () => {
         className='illustration-section-02'
       />
       <Cta split topDivider />
+      <FeaturesSplit
+        invertMobile
+        topDivider
+        bottomDivider
+        imageFill
+        className='illustration-section-02'
+      />
       <Testimonial topDivider />
       <Contact />
     </>

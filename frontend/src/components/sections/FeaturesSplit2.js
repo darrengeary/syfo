@@ -56,11 +56,15 @@ const FeaturesSplit2 = ({
 
   return (
     <section {...props} className={outerClasses}>
-      <div className='container'>
+      <div id='past' className='container'>
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className='center-content' />
           <div className={splitClasses}>
-            <a target='_blank' rel="noopener noreferrer" href='https://sylvia.syfo.ie'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://sylvia.syfo.ie'
+            >
               <div className='split-item'>
                 <div
                   className='split-item-content center-content-mobile reveal-from-left'
@@ -89,7 +93,11 @@ const FeaturesSplit2 = ({
                 </div>
               </div>
             </a>
-            <a target='_blank' rel="noopener noreferrer" href='https://sylvia.syfo.ie'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://sylvia.syfo.ie'
+            >
               <div className='split-item'>
                 <div
                   className='split-item-content center-content-mobile reveal-from-right'

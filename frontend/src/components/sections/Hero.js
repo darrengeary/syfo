@@ -71,13 +71,7 @@ const Hero = ({
                     Contact Us
                   </Button>
 
-                  <Button
-                    tag='a'
-                    color='dark'
-                    wideMobile
-                    target='_blank'
-                    href='https://mcglynns.syfo.ie'
-                  >
+                  <Button tag='a' color='dark' wideMobile href='#past'>
                     View Our Projects
                   </Button>
                 </ButtonGroup>

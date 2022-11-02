@@ -72,8 +72,12 @@ const FeaturesSplit = ({
                 <p className='m-0'>
                   eCommerce is fastly taking over the consumer market. Our easy
                   to use administration system has been specifically designed to
-                  support the management of your eCommerce site, from webpage
-                  content to product and customer administration.
+                  support the management of your eCommerce site.
+                </p>
+                <br></br>
+                <p>
+                  From managing webpage content to product and customer
+                  administration.
                 </p>
               </div>
               <div
@@ -104,8 +108,12 @@ const FeaturesSplit = ({
                 <p className='m-0'>
                   Every business has unique requirements. Our versatile
                   management cockpit can be molded to suit your unique business
-                  requirements. Whether its staff management, analysis reports
-                  or ticketing needs, we've got you covered.
+                  requirements.
+                </p>
+                <br></br>
+                <p>
+                  Whether its staff management, analysis reports or ticketing
+                  needs, we've got you covered.
                 </p>
               </div>
               <div

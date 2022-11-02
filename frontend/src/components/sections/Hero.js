@@ -87,7 +87,7 @@ const Hero = ({
               className='has-shadow'
               src={require("./../../assets/images/syfo.gif")}
               alt='Hero'
-              width={300}
+              width={250}
             />
           </div>
         </div>

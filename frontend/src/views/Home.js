@@ -11,22 +11,20 @@ import FeaturesSplit2 from "../components/sections/FeaturesSplit2"
 const Home = () => {
   return (
     <>
-      <Hero id='top' className='illustration-section-01' />
-      <FeaturesTiles />
+      <Hero bottomDivider id='top' className='illustration-section-01' />
+      <FeaturesTiles className='illustration-section-02' />
       <FeaturesSplit2
         invertMobile
         topDivider
-        bottomDivider
         imageFill
-        className='illustration-section-02'
+        className='illustration-section-03'
       />
-      <Cta split topDivider />
+      <Cta />
       <FeaturesSplit
         invertMobile
-        topDivider
         bottomDivider
         imageFill
-        className='illustration-section-02'
+        className='illustration-section-04'
       />
       <Contact />
     </>

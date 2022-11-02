@@ -40,7 +40,7 @@ const Contact = () => {
   }
 
   return (
-    <section className='section-padding'>
+    <section className='section-inner has-bottom-divider'>
       <SectionHeader
         id='contact'
         data={sectionHeader}

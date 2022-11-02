@@ -4,6 +4,8 @@ import { SectionSplitProps } from "../../utils/SectionProps"
 import SectionHeader from "./partials/SectionHeader"
 import Image from "../elements/Image"
 
+import { BsBroadcast } from "react-icons/bs"
+
 const propTypes = {
   ...SectionSplitProps.types,
 }
@@ -60,9 +62,10 @@ const FeaturesSplit2 = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className='center-content' />
           <div className={splitClasses}>
-            <div className='container pt-3'>
+            <div className='container pt-8'>
               <div className='row align-items-center'>
-                <div className='col-md'>
+                <div className='col-md align-content-between center-content flex-wrap'>
+                  <BsBroadcast alt='Icon' className='feature-icons2' />
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
@@ -76,7 +79,6 @@ const FeaturesSplit2 = ({
                     </h3>
                   </a>
                 </div>
-
                 <div
                   className='col-md-7 pb-2 center-content'
                   data-reveal-container='.split-item'
@@ -89,8 +91,9 @@ const FeaturesSplit2 = ({
                   />
                 </div>
               </div>
-              <div className='row align-items-center pt-3'>
-                <div className='col-md'>
+              <div className='row align-items-center section-inner pb-0'>
+                <div className='col-md  align-content-between center-content flex-wrap'>
+                  <BsBroadcast alt='Icon' className='feature-icons2' />
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
@@ -102,7 +105,6 @@ const FeaturesSplit2 = ({
                     <h3 className='website'>McGlynn's Restaurant Castlefinn</h3>
                   </a>
                 </div>
-
                 <div
                   className='col-md-7 center-content'
                   data-reveal-container='.split-item'

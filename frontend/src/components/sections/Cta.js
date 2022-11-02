@@ -45,16 +45,19 @@ const Cta = ({
     <section {...props} className={outerClasses}>
       <div className=' cta-space container'>
         <div className={innerClasses}>
-          <div className='cta-slogan'>
-            <h3 className='m-0'>
-              Are you interested in software to help your business grow?
+          <h3 className='m-0'>
+            Are you interested in software to help your business grow?
+          </h3>
+          <br></br>
+          <div className='d-flex row'>
+            <h3 className='col-sm-9'>
+              We can deliver on any requirement big or small.
             </h3>
-            <h3>We can deliver on any requirement big or small.</h3>
-          </div>
-          <div className='cta-action'>
-            <Button tag='a' color='dark' wideMobile href='#contact'>
-              Contact Us
-            </Button>
+            <div className='cta-action d-sm-flex justify-content-sm-end col-sm-3'>
+              <Button tag='a' color='dark' wideMobile href='#contact'>
+                Contact Us
+              </Button>
+            </div>
           </div>
         </div>
       </div>

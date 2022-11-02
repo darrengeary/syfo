@@ -3,7 +3,6 @@
   font-family: "Montserrat", sans-serif;
   color: #8d97ad;
   font-weight: 300;
-  padding-bottom: 60px;
   background-position: center top;
   max-height: 100%;
 }
@@ -24,7 +23,7 @@
 }
 
 .section-padding {
-  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .form-control {

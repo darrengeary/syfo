@@ -47,17 +47,17 @@ const Hero = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              Solutions for{" "}
-              <span className='text-color-primary'> Your Business.</span>
+              Experts in{" "}
+              <span className='text-color-primary'>business software</span>{" "}
+              products.
             </h1>
             <div className='container-xs'>
               <p
                 className='m-0 small-space reveal-from-bottom'
                 data-reveal-delay='400'
               >
-                We are a Donegal based startup that provide businesses with
-                websites and cloud business software to encourage modernisation
-                and success.
+                Donegal and Galway based company who build and implement end to
+                end software products to help businesses succeed.
               </p>
               <div className='reveal-from-bottom' data-reveal-delay='600'>
                 <ButtonGroup>
@@ -85,10 +85,9 @@ const Hero = ({
           >
             <Image
               className='has-shadow'
-              src={require("./../../assets/images/noplay.jpg")}
+              src={require("./../../assets/images/syfo.gif")}
               alt='Hero'
-              width={896}
-              height={454}
+              width={300}
             />
           </div>
         </div>

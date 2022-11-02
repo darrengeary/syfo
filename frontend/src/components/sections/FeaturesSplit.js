@@ -68,11 +68,11 @@ const FeaturesSplit = ({
                 <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   Cloud-Based Storefront management
                 </div>
-                <h3 className='mt-0 mb-12'>eCommerce Cockpit</h3>
+                <h3 className='website mt-0 mb-12'>eCommerce Cockpit</h3>
                 <p className='m-0'>
                   eCommerce is fastly taking over the consumer market. Our easy
                   to use administration system has been specifically designed to
-                  support the management of your ecommerce site, from webpage
+                  support the management of your eCommerce site, from webpage
                   content to product and customer administration.
                 </p>
               </div>
@@ -100,7 +100,7 @@ const FeaturesSplit = ({
                 <div className='text-xxs text-color-primary fw-600 tt-u mb-8'>
                   Cloud-Based Business process management
                 </div>
-                <h3 className='mt-0 mb-12'>Management Cockpit</h3>
+                <h3 className='website mt-0 mb-12'>Management Cockpit</h3>
                 <p className='m-0'>
                   Every business has unique requirements. Our versatile
                   management cockpit can be molded to suit your unique business

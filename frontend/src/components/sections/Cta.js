@@ -47,9 +47,9 @@ const Cta = ({
         <div className={innerClasses}>
           <div className='cta-slogan'>
             <h3 className='m-0'>
-              Whether you are interested in web design or business software, get
-              in touch to find out more.
+              Are you interested in software to help your business grow?
             </h3>
+            <h3>We can deliver on any requirement big or small.</h3>
           </div>
           <div className='cta-action'>
             <Button tag='a' color='dark' wideMobile href='#contact'>

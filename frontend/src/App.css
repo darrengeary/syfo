@@ -5,6 +5,7 @@
   font-weight: 300;
   padding-bottom: 60px;
   background-position: center top;
+  max-height: 100%;
 }
 
 .contact2 h1,
@@ -14,6 +15,16 @@
 .contact2 h5,
 .contact2 h6 {
   color: #3e4555;
+}
+
+.website {
+  margin-top: 0;
+  margin-bottom: 12;
+  font-size: 24px !important;
+}
+
+.section-padding {
+  padding-top: 80px;
 }
 
 .form-control {
@@ -36,12 +47,8 @@
 
 .contact2 .bg-image {
   background-size: cover;
-  background-image: url("../src/assets/images/code.jpg");
+  background-image: url("../src/assets/images/code1.png");
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .contact2 .card.card-shadow {

@@ -40,7 +40,7 @@ const Contact = () => {
   }
 
   return (
-    <section>
+    <section className='section-padding'>
       <SectionHeader
         id='contact'
         data={sectionHeader}
@@ -55,7 +55,7 @@ const Contact = () => {
                   <div className='col-lg-8'>
                     <div className='contact-box p-4'>
                       <form className='box-height' onSubmit={submitHandler}>
-                        <div className='mt-8 row'>
+                        <div className='mt-8 row px-md-4 py-md-3'>
                           <div className='col-lg-6'>
                             <div className='form-group '>
                               <FloatingLabel label='name' className='mb-3'>
@@ -151,7 +151,7 @@ const Contact = () => {
                             </div>
                           </div>
                           <div className='button-top col-sm-7'>
-                            <button className='btn btn-danger-gradiant me-8 mt-3 mb-3 text-white border-0 py-2 px-3'>
+                            <button className='btn btn-danger-gradiant me-8 mt-3 mb-3 text-white border-0 py-1 px-3'>
                               <span>
                                 Submit <i className='ti-arrow-right'></i>
                               </span>

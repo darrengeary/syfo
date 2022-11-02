@@ -60,53 +60,7 @@ const Testimonial = ({
             >
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-content'>
-                  <div className='text-sm mb-0'>
-                    <ListGroup className='tlist'>
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        6 Content Pages
-                      </ListGroup.Item>
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        Crisp Responsive Design
-                      </ListGroup.Item>
-
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        Search Optimization (SEO)
-                      </ListGroup.Item>
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        Logo / Minor Design
-                      </ListGroup.Item>
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        Stock Images
-                      </ListGroup.Item>
-                      <ListGroup.Item as='li'>
-                        <FontAwesomeIcon
-                          className='icon-bullet'
-                          icon={faWrench}
-                        />
-                        Contact Page
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </div>
+                  <div className='text-sm mb-0'></div>
                 </div>
                 <div className='testimonial-item-footer text-xs mb-0 has-top-divider'>
                   <span className='testimonial-item-name text-color-high'>

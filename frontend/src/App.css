@@ -46,7 +46,7 @@
 
 .contact2 .bg-image {
   background-size: cover;
-  background-image: url("../src/assets/images/code1.png");
+  background-image: url("../src/assets/images/code1.jpg");
   position: relative;
 }
 
@@ -174,4 +174,15 @@
 
 .button-contact:hover {
   background-color: #a818c8 !important;
+}
+
+.syfogif {
+  box-shadow: 0 24px 64px rgba(21, 23, 25, 0.64);
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  .syfogif {
+    width: 200px !important;
+  }
 }

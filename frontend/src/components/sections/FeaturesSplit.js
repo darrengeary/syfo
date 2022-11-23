@@ -2,7 +2,6 @@ import React from "react"
 import classNames from "classnames"
 import { SectionSplitProps } from "../../utils/SectionProps"
 import SectionHeader from "./partials/SectionHeader"
-import Image from "../elements/Image"
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -87,12 +86,12 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container='.split-item'
               >
-                <Image
-                  src={require("./../../assets/images/features-split-image-01.gif")}
-                  alt='Features split 01'
-                  width={528}
-                  height={396}
-                />
+                <video autoPlay loop muted playsInline width={528} height={396}>
+                  <source
+                    src={require("./../../assets/images/features-split-image-01.webm")}
+                    type='video/webm'
+                  />
+                </video>
               </div>
             </div>
 
@@ -123,12 +122,12 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container='.split-item'
               >
-                <Image
-                  src={require("./../../assets/images/features-split-image-02.gif")}
-                  alt='Features split 02'
-                  width={528}
-                  height={396}
-                />
+                <video autoPlay loop muted playsInline width={528} height={396}>
+                  <source
+                    src={require("./../../assets/images/features-split-image-02.webm")}
+                    type='video/webm'
+                  />
+                </video>
               </div>
             </div>
           </div>

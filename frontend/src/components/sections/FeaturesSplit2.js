@@ -2,7 +2,6 @@ import React from "react"
 import classNames from "classnames"
 import { SectionSplitProps } from "../../utils/SectionProps"
 import SectionHeader from "./partials/SectionHeader"
-import Image from "../elements/Image"
 
 import { BsBroadcast } from "react-icons/bs"
 
@@ -83,12 +82,19 @@ const FeaturesSplit2 = ({
                   className='col-md-7 pb-2 center-content'
                   data-reveal-container='.split-item'
                 >
-                  <Image
-                    src={require("./../../assets/images/ray-of-light.gif")}
-                    alt='Features split 02'
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     width={528}
                     height={396}
-                  />
+                  >
+                    <source
+                      src={require("./../../assets/images/ray-of-light.webm")}
+                      type='video/webm'
+                    />
+                  </video>
                 </div>
               </div>
               <div className='row align-items-center section-inner pb-0'>
@@ -109,12 +115,19 @@ const FeaturesSplit2 = ({
                   className='col-md-7 center-content'
                   data-reveal-container='.split-item'
                 >
-                  <Image
-                    src={require("./../../assets/images/mcglynns.gif")}
-                    alt='Features split 02'
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     width={528}
                     height={396}
-                  />
+                  >
+                    <source
+                      src={require("./../../assets/images/mcglynns.webm")}
+                      type='video/webm'
+                    />
+                  </video>
                 </div>
               </div>
             </div>

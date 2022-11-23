@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import classNames from "classnames"
 import { SectionProps } from "../../utils/SectionProps"
 import ButtonGroup from "../elements/ButtonGroup"
@@ -84,10 +84,9 @@ const Hero = ({
             data-reveal-delay='800'
           >
             <Image
-              className='has-shadow'
+              className='syfogif'
               src={require("./../../assets/images/syfo.gif")}
               alt='Hero'
-              width={250}
             />
           </div>
         </div>
